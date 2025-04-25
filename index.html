@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header, section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #282c34;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+    }
+
+    /* Section Headings */
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #007acc;
+      display: inline-block;
+    }
+
+    /* About Me */
+    .about p {
+      font-size: 1.1rem;
+      max-width: 700px;
+    }
+
+    /* Projects */
+    .projects ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .projects li {
+      margin-bottom: 10px;
+    }
+
+    /* Contact */
+    .contact a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+      section {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Hi, I'm Glea Mae</h1>
+    <p>IT Student & Web Designer</p>
+  </header>
+
+  <!-- About Me Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate web developer focused on creating engaging, accessible, and responsive web experiences.
+      With a strong foundation in HTML, CSS, and JavaScript, I enjoy solving problems through clean and elegant code.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>My Portfolio Website:</strong> Built with Vite.js and pure HTML/CSS.</li>
+      <li><strong>Todo App:</strong> A minimal task tracker using localStorage.</li>
+      <li><strong>Weather App:</strong> Live weather data from OpenWeather API.</li>
+    </ul>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="glea@123.com">glea@123.com</a></p>
+    <p>GitHub: <a href="https://github.com/janedoe" target="_blank">glea mae</a></p>
+  </section>
+
+</body>
+</html>
